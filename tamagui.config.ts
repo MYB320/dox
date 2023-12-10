@@ -1,9 +1,9 @@
-import { createAnimations } from '@tamagui/animations-react-native';
-import { createInterFont } from '@tamagui/font-inter';
-import { createMedia } from '@tamagui/react-native-media-driver';
-import { shorthands } from '@tamagui/shorthands';
-import { themes, tokens } from '@tamagui/themes';
-import { createTamagui, styled, Text, YStack } from 'tamagui';
+import { createAnimations } from '@tamagui/animations-react-native'
+import { createInterFont } from '@tamagui/font-inter'
+import { createMedia } from '@tamagui/react-native-media-driver'
+import { shorthands } from '@tamagui/shorthands'
+import { themes, tokens } from '@tamagui/themes'
+import { createTamagui, styled, Text, YStack } from 'tamagui'
 
 const animations = createAnimations({
   bouncy: {
@@ -23,32 +23,32 @@ const animations = createAnimations({
     mass: 1.2,
     stiffness: 250,
   },
-});
+})
 
-const headingFont = createInterFont();
+const headingFont = createInterFont()
 
-const bodyFont = createInterFont();
+const bodyFont = createInterFont()
 
 export const Container = styled(YStack, {
   flex: 1,
   padding: 24,
-});
+})
 
 export const Main = styled(YStack, {
   flex: 1,
   maxWidth: 960,
   justifyContent: 'space-between',
-});
+})
 
 export const Title = styled(Text, {
   fontSize: 64,
   fontWeight: 'bold',
-});
+})
 
 export const Subtitle = styled(Text, {
   color: '#38434D',
-  fontSize: 36,
-});
+  fontSize: 20,
+})
 
 export const Button = styled(YStack, {
   alignItems: 'center',
@@ -66,14 +66,14 @@ export const Button = styled(YStack, {
   hoverStyle: {
     backgroundColor: '#5a5fcf',
   },
-});
+})
 
 export const ButtonText = styled(Text, {
   color: '#FFFFFF',
   fontSize: 16,
   fontWeight: '600',
   textAlign: 'center',
-});
+})
 
 const config = createTamagui({
   light: {
@@ -109,9 +109,9 @@ const config = createTamagui({
     hoverNone: { hover: 'none' },
     pointerCoarse: { pointer: 'coarse' },
   }),
-});
+})
 
-type AppConfig = typeof config;
+type AppConfig = typeof config
 
 // Enable auto-completion of props shorthand (ex: jc="center") for Tamagui templates.
 // Docs: https://tamagui.dev/docs/core/configuration
@@ -120,4 +120,4 @@ declare module 'tamagui' {
   interface TamaguiCustomConfig extends AppConfig {}
 }
 
-export default config;
+export default config
