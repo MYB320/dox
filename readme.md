@@ -16,8 +16,6 @@ To get started with Dox Beta on your mobile device, follow these simple steps:
 npm install -g expo-cli
 ```
 
-````
-
 2. Clone the Dox Beta repository:
 
 ```bash
@@ -58,4 +56,3 @@ Dox Beta is licensed under the [MIT License](LICENSE).
 For any inquiries or feedback, contact us at [support@doxapp.com](mailto:support@doxapp.com).
 
 Get organized with Dox Beta on your mobile device!
-````
