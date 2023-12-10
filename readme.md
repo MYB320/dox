@@ -1,6 +1,3 @@
-Certainly! Here's a template for a short README.md file for a React Native & Expo to-do application named "Dox" in beta version:
-
-````markdown
 # Dox Beta - React Native & Expo To-Do App
 
 Welcome to Dox Beta, a sleek to-do application built with React Native and Expo. Experience the power of mobile task management with this intuitive app, currently in its beta version.
@@ -18,6 +15,7 @@ To get started with Dox Beta on your mobile device, follow these simple steps:
 ```bash
 npm install -g expo-cli
 ```
+
 ````
 
 2. Clone the Dox Beta repository:
@@ -60,3 +58,4 @@ Dox Beta is licensed under the [MIT License](LICENSE).
 For any inquiries or feedback, contact us at [support@doxapp.com](mailto:support@doxapp.com).
 
 Get organized with Dox Beta on your mobile device!
+````
